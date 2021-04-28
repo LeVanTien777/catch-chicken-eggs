@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1617712639 source:d:\game\button.cpp
+	"Button.h"
+
+1617712660 d:\game\button.h
+	"init.h"
+	"Img.h"
+	"Text.h"
+
+1619448752 d:\game\init.h
+	<iostream>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Img.h"
+	"common.h"
+
+1617712652 d:\game\img.h
+	"init.h"
+	<SDL_image.h>
+
+1619453450 d:\game\common.h
+	<SDL.h>
+
+1617712656 d:\game\text.h
+	<SDL_ttf.h>
+	"init.h"
+	<string>
+
+1618332620 source:d:\game\img.cpp
+	"Img.h"
+	"init.h"
+
+1619456939 source:d:\game\main.cpp
+	<iostream>
+	"init.h"
+	"crate.h"
+	"common_function.h"
+	"chicken.h"
+	"Text.h"
+	"sound.h"
+	"Button.h"
+
+1619448840 source:d:\game\init.cpp
+	"init.h"
+	<ctime>
+	<time.h>
+
+1619454057 source:d:\game\sound.cpp
+	"sound.h"
+
+1619453484 d:\game\sound.h
+	<SDL_mixer.h>
+
+1619449087 source:d:\game\text.cpp
+	"Text.h"
+	"common.h"
+
+1618332246 source:d:\game\crate.cpp
+	"crate.h"
+	"common.h"
+
+1618337615 d:\game\crate.h
+	"init.h"
+	"chicken.h"
+
+1618337305 d:\game\common_function.h
+	"init.h"
+
+1617764770 source:d:\game\common_function.cpp
+	"common_function.h"
+	"common.h"
+	<random>
+
+1619456302 source:d:\game\chicken.cpp
+	"chicken.h"
+	<random>
+
+1619456135 d:\game\chicken.h
+	"init.h"
+	"egg.h"
+	<vector>
+
+1619449459 d:\game\egg.h
+	"init.h"
+
+1619449703 source:d:\game\egg.cpp
+	"egg.h"
+	"common_function.h"
+	"common.h"
+
